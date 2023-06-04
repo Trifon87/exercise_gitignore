@@ -1,13 +1,13 @@
 node_modules/
 
 # User-specific files - Ignore all files ending in ".env"
-*.env
+.env
 
 # Mono auto generated files - Ignore all files starting with "mono_crash."
-z.*
+z*
 
 
 # Root config folder - Ignore this directory at the root due to leading slash
 # Removing the slash would ignore "config" directories at all depths 
-/artifacts
+/artifacts/
 
